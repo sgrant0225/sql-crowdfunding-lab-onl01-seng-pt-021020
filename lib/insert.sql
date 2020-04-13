@@ -19,6 +19,18 @@ INSERT INTO users (name, age) VALUES ("Amy Utopia", 32);
 INSERT INTO users (name, age) VALUES ("Z Drake", 18);
 INSERT INTO users (name, age) VALUES ("Natasha Brews", 26);
 
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("The Joy of Styling", "Fashion Consultant", 600, "5/1/20", "6/30/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Black Girl's Code", "Technology", 1000, "5/1/17", "6/30/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Clean it Like you Mean it", "Environmental", 625, "5/1/20", "6/30/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("March of Dimes", "Health", 500, "5/1/20", "6/30/2017");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Lose the Gut, Keep the Butt", "Fitness", 600, "5/1/20", "6/30/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Bridges", "Mental Health", 275, "5/1/20", "7/31/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Sole Haircare", "Cosmetics", 1060, "5/1/20", "5/1/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Fibroid Awareness", "Womens Health", 400, "5/1/20", "7/31/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Check Mate", "Dating" , 1000, "5/1/20", "7/31/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Soup Kitchen", "Non Profit", 250, "6/1/20", "7/31/20");
+
 INSERT INTO pledges (amount, user_id, project_id) VALUES (45, 1, 2);
 INSERT INTO pledges (amount, user_id, project_id) VALUES (40, 1, 5);
 INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 1, 9);
